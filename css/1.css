@@ -1,0 +1,79 @@
+*{
+    font-family: 'Open Sans',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.container h1{
+    text-align: center;
+    margin: 40px 0;
+}
+.container a{
+    text-align: none;
+    background-color: dodgerblue;
+    padding: 10px 15px;
+    display: inline-block;
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-weight:600;
+}
+.container a:hover{
+    background-color: blue;
+}
+/* Phần chứa sản phẩm */
+.product-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* Căn giữa các sản phẩm trên mỗi hàng */
+}
+
+/* Card sản phẩm */
+.product-card {
+    width: 250px;
+    border: 1px solid #1f1717;
+    
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    
+    /* Tạo khoảng cách giữa các sản phẩm */
+}
+
+/* Ảnh sản phẩm */
+.product-card .pic img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    /* Đảm bảo ảnh fit trong phần hiển thị */
+}
+
+
+
+
+
+
+
+.product-card .price .percent {
+    font-weight: bold;
+    /* Định dạng phần trăm giảm giá */
+}
+
+.product-card .price .old-price{
+    color: gray;
+    text-decoration: line-through;
+}
+.product-card .price .new-price{
+    color: red;
+}
+
+
+
+
+
